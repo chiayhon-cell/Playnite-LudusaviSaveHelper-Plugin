@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="LOC_Ludu_MenuLink">关联统一 Manifest 文件</sys:String>
+    <sys:String x:Key="LOC_Ludu_MenuAdd">添加存档路径到 Manifest</sys:String>
+    <sys:String x:Key="LOC_Ludu_SelectManifestTitle">请选择你现有的统一 Manifest 文件</sys:String>
+    <sys:String x:Key="LOC_Ludu_LinkSuccessMsg" xml:space="preserve">成功关联！&#x0a;脚本将把新规则追加到:&#x0a;{0}</sys:String>
+    <sys:String x:Key="LOC_Ludu_SetupComplete">设置完成</sys:String>
+    <sys:String x:Key="LOC_Ludu_ErrNotConfiguredMsg">请先点击 [关联 Manifest 文件] 按钮！</sys:String>
+    <sys:String x:Key="LOC_Ludu_NotConfigured">未配置</sys:String>
+    <sys:String x:Key="LOC_Ludu_ErrMissingMsg" xml:space="preserve">关联的文件路径无效或文件已移动。&#x0a;路径: [{0}]</sys:String>
+    <sys:String x:Key="LOC_Ludu_FileMissing">文件丢失</sys:String>
+    <sys:String x:Key="LOC_Ludu_SelectTypeMsg" xml:space="preserve">你要添加的是整个文件夹，还是单个文件？&#x0a;&#x0a;[是] = 文件夹 (Folder)&#x0a;[否] = 文件 (File)</sys:String>
+    <sys:String x:Key="LOC_Ludu_SelectType">选择类型</sys:String>
+    <sys:String x:Key="LOC_Ludu_SetWildcardMsg" xml:space="preserve">已选中路径: {0} &#x0a;&#x0a;请输入匹配规则 (Glob):&#x0a; * -> 文件夹下所有内容&#x0a; *.sav        -> 仅 .sav 后缀&#x0a; save_*.dat   -> save_ 开头的文件</sys:String>
+    <sys:String x:Key="LOC_Ludu_SetWildcard">设置通配符</sys:String>
+    <sys:String x:Key="LOC_Ludu_SuccessMsg" xml:space="preserve">已追加到: {0}&#x0a;&#x0a;规则: {1}</sys:String>
+    <sys:String x:Key="LOC_Ludu_Success">成功</sys:String>
+    <sys:String x:Key="LOC_Ludu_WriteFailMsg">写入失败: {0}</sys:String>
+    <sys:String x:Key="LOC_Ludu_Error">错误</sys:String>
+</ResourceDictionary>
